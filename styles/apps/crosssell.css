@@ -1,0 +1,25 @@
+/* Error: Undefined mixin.
+ *    ,
+ * 30 | / @include query-medium-down {
+ * 31 | |     #MiniCart {
+ * 32 | |         &.has-cross-sell {
+ * 33 | |             .minicart-container {
+ * 34 | |                 height: calc(100% - #{$headerSmallScreenHeight} - #{$crosssellMinicartSmallScreenHeight});
+ * 35 | |             }
+ * 36 | |         }
+ * 37 | |     }
+ * 38 | | };
+ *    | '-^
+ *    '
+ *   apps\crosssell.scss 30:1  root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined mixin.\a    \2577 \a 30 \2502  \250c  @include query-medium-down {\a 31 \2502  \2502      #MiniCart {\a 32 \2502  \2502          &.has-cross-sell {\a 33 \2502  \2502              .minicart-container {\a 34 \2502  \2502                  height: calc(100% - #{$headerSmallScreenHeight} - #{$crosssellMinicartSmallScreenHeight});\a 35 \2502  \2502              }\a 36 \2502  \2502          }\a 37 \2502  \2502      }\a 38 \2502  \2502  };\a    \2502  \2514 \2500 ^\a    \2575 \a   apps\\crosssell.scss 30:1  root stylesheet";
+}
