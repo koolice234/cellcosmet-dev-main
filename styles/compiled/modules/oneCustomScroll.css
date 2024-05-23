@@ -1,0 +1,118 @@
+/*---------- Helper Start ----------*/
+/* Shapes */
+@media screen and (max-width: 375px) {
+  .hide-xsmall {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .hide-small {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .hide-medium-down {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .hide-medium-up {
+    display: none !important;
+  }
+}
+@media screen and (min-width: 1025px) {
+  .hide-large-up {
+    display: none !important;
+  }
+}
+/*---------- Helper End ----------*/
+.scrollable {
+  overflow: hidden;
+  position: relative;
+  padding-bottom: 30px;
+}
+.scrollable > :first-child {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  overflow: -moz-scrollbars-none;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+.scrollable > :first-child::-webkit-scrollbar {
+  width: 0 !important;
+  display: none;
+}
+.scrollable.scrollable-x > :first-child {
+  overflow-x: scroll;
+  overflow-y: hidden;
+}
+.scrollable.scrollable-y > :first-child {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.scrollable .track {
+  position: absolute;
+  display: block;
+  content: " ";
+  bottom: 0;
+  right: 5px;
+  height: 90%;
+  width: 5px;
+  background: #D9D9D9;
+}
+.scrollable .scroller {
+  z-index: 5;
+  cursor: pointer;
+  position: absolute;
+  width: 5px;
+  background-color: #000000;
+  bottom: 0;
+  height: 5px;
+  left: 0;
+  right: 3px;
+  -webkit-transition: top .08s;
+  -moz-transition: top .08s;
+  -ms-transition: top .08s;
+  -o-transition: top .08s;
+  transition: top .08s;
+}
+.scrollable.scrollable-x .track {
+  bottom: 0;
+  right: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+  width: auto;
+  margin: auto;
+}
+.scrollable.scrollable-x .scroller {
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 5px;
+  width: unset;
+}
+.scrollable.scrollable-y .track {
+  background-color: #D9D9D9;
+  top: 0;
+  bottom: 0;
+  left: unset;
+  right: 3px;
+  width: 5px;
+  height: auto;
+  margin: auto;
+}
+.scrollable.scrollable-y .scroller {
+  background-color: #D9D9D9;
+  left: unset;
+  height: auto;
+  bottom: unset;
+  right: 3px;
+  width: 5px;
+}
+
+/*# sourceMappingURL=oneCustomScroll.css.map */
