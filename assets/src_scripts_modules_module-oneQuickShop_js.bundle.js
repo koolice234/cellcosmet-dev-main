@@ -47,8 +47,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 Object(function webpackMissingModule() { var e = new Error("Cannot find module 'underscore'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 Object(function webpackMissingModule() { var e = new Error("Cannot find module 'backbone'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
-/* harmony import */ var _lib_pubsub__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @/lib/pubsub */ "./src/scripts/lib/pubsub.js");
-/* harmony import */ var _modules_module_oneMarketing__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/modules/module-oneMarketing */ "./src/scripts/modules/module-oneMarketing.js");
+/* harmony import */ var _lib_pubsub__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./lib/pubsub */ "./src/scripts/lib/pubsub.js");
+/* harmony import */ var _modules_module_oneMarketing__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/module-oneMarketing */ "./src/scripts/modules/module-oneMarketing.js");
 /* harmony import */ var _styles_modules_oneSwatch_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../styles/modules/oneSwatch.scss */ "./src/styles/modules/oneSwatch.scss");
 /* harmony import */ var _styles_modules_oneSwatch_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_modules_oneSwatch_scss__WEBPACK_IMPORTED_MODULE_3__);
 /*
@@ -272,8 +272,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
 Object(function webpackMissingModule() { var e = new Error("Cannot find module 'underscore'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 Object(function webpackMissingModule() { var e = new Error("Cannot find module 'backbone'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
-/* harmony import */ var _modules_module_oneDrawer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/modules/module-oneDrawer */ "./src/scripts/modules/module-oneDrawer.js");
-/* harmony import */ var _views_view_product__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/views/view-product */ "./src/scripts/views/view-product.js");
+/* harmony import */ var _modules_module_oneDrawer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/module-oneDrawer */ "./src/scripts/modules/module-oneDrawer.js");
+/* harmony import */ var _views_view_product__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./views/view-product */ "./src/scripts/views/view-product.js");
 /* harmony import */ var _styles_pages_product_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../styles/pages/product.scss */ "./src/styles/pages/product.scss");
 /* harmony import */ var _styles_pages_product_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_pages_product_scss__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var _styles_pages_product_product_quickshop_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../../styles/pages/product/product-quickshop.scss */ "./src/styles/pages/product/product-quickshop.scss");
@@ -551,7 +551,7 @@ __webpack_require__.r(__webpack_exports__);
 Object(function webpackMissingModule() { var e = new Error("Cannot find module 'underscore'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 Object(function webpackMissingModule() { var e = new Error("Cannot find module 'backbone'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 Object(function webpackMissingModule() { var e = new Error("Cannot find module '@panzoom/panzoom'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
-/* harmony import */ var _lib_jquery_doubletap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/lib/jquery.doubletap */ "./src/scripts/lib/jquery.doubletap.js");
+/* harmony import */ var _lib_jquery_doubletap__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./lib/jquery.doubletap */ "./src/scripts/lib/jquery.doubletap.js");
 /* harmony import */ var _lib_jquery_doubletap__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_lib_jquery_doubletap__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _styles_modules_oneZoom_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../styles/modules/oneZoom.scss */ "./src/styles/modules/oneZoom.scss");
 /*
@@ -769,15 +769,15 @@ Object(function webpackMissingModule() { var e = new Error("Cannot find module '
 Object(function webpackMissingModule() { var e = new Error("Cannot find module 'backbone'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 Object(function webpackMissingModule() { var e = new Error("Cannot find module 'scrolltofixed'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
 Object(function webpackMissingModule() { var e = new Error("Cannot find module 'slick-carousel'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
-/* harmony import */ var _modules_module_oneProductForm__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @/modules/module-oneProductForm */ "./src/scripts/modules/module-oneProductForm.js");
-/* harmony import */ var _modules_module_oneZoom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @/modules/module-oneZoom */ "./src/scripts/modules/module-oneZoom.js");
-/* harmony import */ var _modules_module_oneDrawer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @/modules/module-oneDrawer */ "./src/scripts/modules/module-oneDrawer.js");
-/* harmony import */ var _modules_module_oneTabSystem__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @/modules/module-oneTabSystem */ "./src/scripts/modules/module-oneTabSystem.js");
-/* harmony import */ var _modules_module_oneVideo__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @/modules/module-oneVideo */ "./src/scripts/modules/module-oneVideo.js");
-/* harmony import */ var _modules_module_oneRecentlyViewed__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @/modules/module-oneRecentlyViewed */ "./src/scripts/modules/module-oneRecentlyViewed.js");
-/* harmony import */ var _modules_module_oneMarketing__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @/modules/module-oneMarketing */ "./src/scripts/modules/module-oneMarketing.js");
+/* harmony import */ var _modules_module_oneProductForm__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./modules/module-oneProductForm */ "./src/scripts/modules/module-oneProductForm.js");
+/* harmony import */ var _modules_module_oneZoom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./modules/module-oneZoom */ "./src/scripts/modules/module-oneZoom.js");
+/* harmony import */ var _modules_module_oneDrawer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./modules/module-oneDrawer */ "./src/scripts/modules/module-oneDrawer.js");
+/* harmony import */ var _modules_module_oneTabSystem__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./modules/module-oneTabSystem */ "./src/scripts/modules/module-oneTabSystem.js");
+/* harmony import */ var _modules_module_oneVideo__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./modules/module-oneVideo */ "./src/scripts/modules/module-oneVideo.js");
+/* harmony import */ var _modules_module_oneRecentlyViewed__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./modules/module-oneRecentlyViewed */ "./src/scripts/modules/module-oneRecentlyViewed.js");
+/* harmony import */ var _modules_module_oneMarketing__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./modules/module-oneMarketing */ "./src/scripts/modules/module-oneMarketing.js");
 /* harmony import */ var _styles_modules_oneSizeChart_scss__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../styles/modules/oneSizeChart.scss */ "./src/styles/modules/oneSizeChart.scss");
-/* harmony import */ var _lib_pubsub__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @/lib/pubsub */ "./src/scripts/lib/pubsub.js");
+/* harmony import */ var _lib_pubsub__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ./lib/pubsub */ "./src/scripts/lib/pubsub.js");
 
 
 
