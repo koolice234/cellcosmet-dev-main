@@ -4,46 +4,50 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
-  entry: './src/scripts/index.js',
+  entry: './src/scripts/index.js', // adjust entry point as per your project structure
   output: {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
-    publicPath: '/',
+    publicPath: '',
   },
+  mode: 'development', // or 'production' for minification
+  devtool: 'source-map', // generate source maps
+
   module: {
     rules: [
+      // JavaScript/TypeScript files
       {
-        test: /\.js$/,
+        test: /\.(js|jsx|ts|tsx)$/,
         exclude: /node_modules/,
-        use: {
-          loader: 'babel-loader',
-        },
+        use: 'babel-loader',
       },
+      // SCSS files
       {
         test: /\.scss$/,
         use: [
-          // Development: Inject CSS into DOM
-          'style-loader',
-          // Translates CSS into CommonJS
+          MiniCssExtractPlugin.loader,
           'css-loader',
-          // Compiles Sass to CSS
           'sass-loader',
         ],
       },
-      {
-        test: /\.html$/,
-        use: ['html-loader'],
-      },
     ],
   },
+
   plugins: [
-    new CleanWebpackPlugin(),
+    new CleanWebpackPlugin(), // clean 'dist' folder before each build
     new MiniCssExtractPlugin({
-      filename: 'styles.css', // For production
+      filename: 'styles.css',
     }),
     new HtmlWebpackPlugin({
-      template: './src/index.html', // Specify your HTML template file
+      template: './src/index.html', // adjust path to your HTML template
+      filename: 'index.html', // output HTML filename
     }),
   ],
-  mode: 'development',
+
+  devServer: {
+    contentBase: './dist', // serve content from 'dist' folder
+    hot: true,
+    port: 3000,
+    open: true,
+  },
 };
