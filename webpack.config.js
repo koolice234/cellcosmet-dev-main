@@ -7,7 +7,7 @@ module.exports = {
   entry: './src/scripts/index.js', // adjust entry point as per your project structure
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'assets'),
     publicPath: '',
   },
   mode: 'development', // or 'production' for minification
@@ -45,7 +45,7 @@ module.exports = {
   ],
 
   devServer: {
-    contentBase: './dist', // serve content from 'dist' folder
+    contentBase: './assets', // serve content from 'dist' folder
     hot: true,
     port: 3000,
     open: true,
