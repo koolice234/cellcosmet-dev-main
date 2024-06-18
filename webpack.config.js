@@ -10,6 +10,15 @@ module.exports = {
     path: path.resolve(__dirname, 'assets'),
     publicPath: '',
   },
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './scripts'), // Adjust the path as per your project structure
+    },
+    extensions: ['.js', '.jsx', '.ts', '.tsx'], // Add relevant extensions
+    fallback: {
+      // Add any necessary fallbacks if required
+    }
+  },
   mode: 'development', // or 'production' for minification
   devtool: 'source-map', // generate source maps
 
