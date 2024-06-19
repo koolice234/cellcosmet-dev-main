@@ -7,10 +7,10 @@
 import $ from 'jquery';
 import _ from 'underscore';
 import Backbone from 'backbone';
-import OneDrawer from './modules/module-oneDrawer';
+import OneDrawer from '../modules/module-oneDrawer';
 
-import GridTemp from './templates/template-oneProductCompareGrid.html';
-import CompareAllTemp from './templates/template-oneProductCompareAll.html';
+import GridTemp from '../templates/template-oneProductCompareGrid.html';
+import CompareAllTemp from '../templates/template-oneProductCompareAll.html';
 
 import '../../styles/modules/oneProductCompare.scss';
 

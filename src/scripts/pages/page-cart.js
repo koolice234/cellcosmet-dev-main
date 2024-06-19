@@ -1,6 +1,6 @@
 import whenDomReady from 'when-dom-ready';
-import OneMarketing from './modules/module-oneMarketing';
-import OneCart from './modules/module-oneCart';
+import OneMarketing from '../modules/module-oneMarketing';
+import OneCart from '../modules/module-oneCart';
 import '../../styles/pages/cart.scss';
 
 whenDomReady(() => {

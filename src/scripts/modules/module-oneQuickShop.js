@@ -8,8 +8,8 @@ import $ from 'jquery';
 import _ from 'underscore';
 import Backbone from 'backbone';
 
-import OneDrawer from './modules/module-oneDrawer';
-import ViewProduct from './views/view-product';
+import OneDrawer from '../modules/module-oneDrawer';
+import ViewProduct from '../pages/views/view-product';
 
 
 import '../../styles/pages/product.scss';

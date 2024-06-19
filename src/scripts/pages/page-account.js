@@ -1,7 +1,7 @@
 import $ from 'jquery';
 import whenDomReady from 'when-dom-ready';
-import OneContact from './modules/module-oneContact';
-import OneMarketing from './modules/module-oneMarketing';
+import OneContact from '../modules/module-oneContact';
+import OneMarketing from '../modules/module-oneMarketing';
 
 let urlPath = window.location.pathname.toLowerCase();
 let urlHash = window.location.hash.toLowerCase();

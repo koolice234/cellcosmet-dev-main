@@ -14,7 +14,7 @@ import Backbone from 'backbone';
 
 // import 'jquery.panzoom';
 import Panzoom from "@panzoom/panzoom";
-import './lib/jquery.doubletap';
+import '../lib/jquery.doubletap';
 
 import '../../styles/modules/oneZoom.scss';
 

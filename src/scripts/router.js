@@ -1,7 +1,7 @@
 import $ from 'jquery';
 
 import whenDomReady from 'when-dom-ready';
-import ViewGlobal from './views/view-global';
+import ViewGlobal from './pages/views/view-global';
 
 export default async () => {
 

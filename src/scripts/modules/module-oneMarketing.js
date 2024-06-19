@@ -10,7 +10,7 @@
 	Tags and variables for these custom events need to be set up in GTM.  
 */
 import $ from 'jquery';
-import { PUB_SUB_EVENTS, subscribe } from './lib/pubsub';
+import { PUB_SUB_EVENTS, subscribe } from './../lib/pubsub';
 
 export default class OneMarketing {
 	constructor () {

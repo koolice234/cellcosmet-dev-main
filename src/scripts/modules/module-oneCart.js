@@ -1,6 +1,6 @@
 import Backbone from 'backbone';
-import { renderSections, getSectionInnerHTML } from './lib/renderSections';
-import { PUB_SUB_EVENTS, subscribe, publish } from './lib/pubsub';
+import { renderSections, getSectionInnerHTML } from './../lib/renderSections';
+import { PUB_SUB_EVENTS, subscribe, publish } from './../lib/pubsub';
 
 const OneCartView = Backbone.View.extend({
 

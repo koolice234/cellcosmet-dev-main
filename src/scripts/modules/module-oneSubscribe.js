@@ -20,8 +20,8 @@ import $ from 'jquery';
 import _ from 'underscore';
 import Backbone from 'backbone';
 
-import OneDrawer from './modules/module-oneDrawer';
-import OneContact from './modules/module-oneContact';
+import OneDrawer from '../modules/module-oneDrawer';
+import OneContact from '../modules/module-oneContact';
 
 import '../../styles/modules/oneSubscribe.scss';
 

@@ -2,9 +2,9 @@ import $ from 'jquery';
 import whenDomReady from 'when-dom-ready';
 import ViewCollection from './views/view-collection';
 import ViewCollectionNav from './views/view-collectionNav';
-import OneQuickShop from './modules/module-oneQuickShop';
-import OneQuickBuy from './modules/module-oneQuickBuy';
-import OneProductCompare from './modules/module-oneProductCompare';
+import OneQuickShop from '../modules/module-oneQuickShop';
+import OneQuickBuy from '../modules/module-oneQuickBuy';
+import OneProductCompare from '../modules/module-oneProductCompare';
 
 import '../../styles/pages/collection.scss';
 import '../../styles/pages/search.scss';

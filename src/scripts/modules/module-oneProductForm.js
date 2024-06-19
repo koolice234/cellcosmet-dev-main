@@ -17,8 +17,8 @@
 // Import all dependencies here
 import _ from 'underscore';
 import Backbone from 'backbone';
-import { publish, PUB_SUB_EVENTS } from './lib/pubsub';
-import OneMarketing from './modules/module-oneMarketing';
+import { publish, PUB_SUB_EVENTS } from './../lib/pubsub';
+import OneMarketing from '../modules/module-oneMarketing';
 
 import '../../styles/modules/oneSwatch.scss';
 

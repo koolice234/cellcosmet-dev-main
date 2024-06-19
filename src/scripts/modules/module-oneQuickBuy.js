@@ -8,7 +8,7 @@ import $ from 'jquery';
 import _ from 'underscore';
 import Backbone from 'backbone';
 
-import OneProductForm from './modules/module-oneProductForm';
+import OneProductForm from '../modules/module-oneProductForm';
 
 import '../../styles/pages/product/product-quickbuy.scss';
 

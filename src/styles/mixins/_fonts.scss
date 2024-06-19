@@ -89,31 +89,32 @@ $cta-side-padding: 16px;
   Fonts & Icons helper mixins
 ==============================================================================*/
 
-@mixin font-family-import($fileName,$svg:false,$italic:null) {
+@mixin font-family-import($fileName, $svg: false, $italic: null) {
     @if $svg {
         @font-face {
             font-family: $fileName;
-            src: url('../styles/fonts/#{$fileName}.woff') format('woff'), // Pretty Modern Browsers
-               url('../styles/fonts/#{$fileName}.ttf') format('truetype'), // Safari, Android, iOS
-               url('../styles/fonts/#{$fileName}.svg') format('svg'); // Legacy iOS
+            src: url('../fonts/#{$fileName}.woff') format('woff'), // Pretty Modern Browsers
+                 url('../fonts/#{$fileName}.ttf') format('truetype'), // Safari, Android, iOS
+                 url('../fonts/#{$fileName}.svg') format('svg'); // Legacy iOS
             font-weight: normal;
             font-style: normal;
         }
     } @else {
         @font-face {
             font-family: $fileName;
-            src: url('../styles/fonts/#{$fileName}.woff') format('woff'), // Pretty Modern Browsers
-               url('../styles/fonts/#{$fileName}.ttf') format('truetype'), // Safari, Android, iOS
-               url('../styles/fonts/#{$fileName}.woff2') format('woff2'); // Pretty Modern Browsers
+            src: url('../fonts/#{$fileName}.woff') format('woff'), // Pretty Modern Browsers
+                 url('../fonts/#{$fileName}.ttf') format('truetype'), // Safari, Android, iOS
+                 url('../fonts/#{$fileName}.woff2') format('woff2'); // Pretty Modern Browsers
             font-weight: normal;
             font-style: normal;
         }
+
         @if $italic {
             @font-face {
                 font-family: $fileName;
-                src: url('../styles/fonts/#{$fileName}-Italic.woff') format('woff'), // Pretty Modern Browsers
-                   url('../styles/fonts/#{$fileName}-Italic.ttf') format('truetype'), // Safari, Android, iOS
-                   url('../styles/fonts/#{$fileName}-Italic.woff2') format('woff2'); // Legacy iOS
+                src: url('../fonts/#{$fileName}-Italic.woff') format('woff'), // Pretty Modern Browsers
+                     url('../fonts/#{$fileName}-Italic.ttf') format('truetype'), // Safari, Android, iOS
+                     url('../fonts/#{$fileName}-Italic.woff2') format('woff2'); // Pretty Modern Browsers
                 font-weight: normal;
                 font-style: italic;
             }
@@ -132,6 +133,7 @@ $cta-side-padding: 16px;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%;
 }
+
 
 @mixin base-font {
     @include font-smoothing(antialiased);

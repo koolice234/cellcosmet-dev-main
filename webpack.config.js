@@ -10,15 +10,6 @@ module.exports = {
     path: path.resolve(__dirname, 'assets'),
     publicPath: '',
   },
-  resolve: {
-    alias: {
-      '@': path.resolve(__dirname, './scripts'), // Adjust the path as per your project structure
-    },
-    extensions: ['.js', '.jsx', '.ts', '.tsx'], // Add relevant extensions
-    fallback: {
-      // Add any necessary fallbacks if required
-    }
-  },
   mode: 'development', // or 'production' for minification
   devtool: 'source-map', // generate source maps
 
@@ -37,6 +28,28 @@ module.exports = {
           MiniCssExtractPlugin.loader,
           'css-loader',
           'sass-loader',
+        ],
+      },
+      {
+        test: /\.html$/,
+        use: 'html-loader',
+      },
+      {
+        test: /\.ejs$/,
+        use: 'ejs-loader',
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        include: path.resolve(__dirname, 'src/style/fonts'),
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+              outputPath: 'fonts/',
+              publicPath: '/fonts/',
+            },
+          },
         ],
       },
     ],

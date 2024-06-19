@@ -13,7 +13,7 @@ import Backbone from 'backbone';
 
 // import '../../styles/modules/yourModuleCallName.scss';
 
-import SearchResultsTemp from './templates/template-onePredictiveSearchResults.html';
+import SearchResultsTemp from '../templates/template-onePredictiveSearchResults.html';
 
 // Define the Backbone View here (Optional)
 let OnePredictiveSearchView = Backbone.View.extend({

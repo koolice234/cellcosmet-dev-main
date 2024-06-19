@@ -35,7 +35,7 @@ import $ from 'jquery';
 import _ from 'underscore';
 import Backbone from 'backbone';
 
-import DefaultTemp from './templates/template-oneDrawerDefault.html';
+import DefaultTemp from '../templates/template-oneDrawerDefault.html';
 
 import '../../styles/modules/oneDrawer.scss';
 
