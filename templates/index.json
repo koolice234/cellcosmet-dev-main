@@ -12,7 +12,66 @@
   "sections": {
     "homepage-module-a": {
       "type": "homepage-module-a",
-      "disabled": true,
+      "blocks": {
+        "slide_GxXAWM": {
+          "type": "slide",
+          "settings": {
+            "image_a": "shopify:\/\/shop_images\/glass-box-gold.png",
+            "video_url": "",
+            "preheadline": "",
+            "preheadline_foreground": "#A80A14",
+            "preheadline_background": "#fff",
+            "preheadline_background_transparent": false,
+            "preheadline_border": "#A80A14",
+            "preheadline_border_hide": false,
+            "headline": "",
+            "text_color_desktop": "#fff",
+            "text_color_mobile": "#fff",
+            "subheadline": "",
+            "cta": "",
+            "link": "",
+            "button_foreground": "#000",
+            "button_background": "#fff",
+            "text_align": "text-center",
+            "mobile_vertical_alignment": "mobile-bottom",
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "date_from": "",
+            "date_to": ""
+          }
+        },
+        "slide_splitted_dD3TB6": {
+          "type": "slide_splitted",
+          "settings": {
+            "image_a": "shopify:\/\/shop_images\/glass-box-gold.png",
+            "image_b": "shopify:\/\/shop_images\/ScreenShot2022-07-30at6.57.53AM.png",
+            "preheadline": "",
+            "preheadline_foreground": "#A80A14",
+            "preheadline_background": "#fff",
+            "preheadline_background_transparent": false,
+            "preheadline_border": "#A80A14",
+            "preheadline_border_hide": false,
+            "headline": "",
+            "subheadline": "",
+            "text_color_desktop": "#fff",
+            "text_color_mobile": "#fff",
+            "cta": "",
+            "link": "",
+            "button_foreground": "#000",
+            "button_background": "#fff",
+            "text_align": "text-center",
+            "mobile_vertical_alignment": "mobile-bottom",
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "date_from": "",
+            "date_to": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_GxXAWM",
+        "slide_splitted_dD3TB6"
+      ],
       "settings": {
       }
     },
