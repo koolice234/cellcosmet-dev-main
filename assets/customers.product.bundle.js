@@ -144,4 +144,4 @@ __webpack_require__.r(__webpack_exports__);
 /***/ })
 
 }]);
-//# sourceMappingURL=customers.bundle.js.map
+//# sourceMappingURL=customers.product.bundle.js.map

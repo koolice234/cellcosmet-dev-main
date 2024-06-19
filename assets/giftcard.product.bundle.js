@@ -54,4 +54,4 @@ __webpack_require__.r(__webpack_exports__);
 /***/ })
 
 }]);
-//# sourceMappingURL=giftcard.bundle.js.map
+//# sourceMappingURL=giftcard.product.bundle.js.map

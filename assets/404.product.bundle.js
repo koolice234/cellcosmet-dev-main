@@ -31,4 +31,4 @@ __webpack_require__.r(__webpack_exports__);
 /***/ })
 
 }]);
-//# sourceMappingURL=404.bundle.js.map
+//# sourceMappingURL=404.product.bundle.js.map

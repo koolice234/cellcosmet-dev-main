@@ -10,6 +10,10 @@ module.exports = {
     path: path.resolve(__dirname, 'assets'),
     publicPath: '',
   },
+  output: {
+    filename: 'product.bundle.js',
+    path: path.resolve(__dirname, 'assets'),
+  },
   mode: 'development', // or 'production' for minification
   devtool: 'source-map', // generate source maps
 

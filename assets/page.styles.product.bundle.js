@@ -37,8 +37,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ });
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! jquery */ "./node_modules/jquery/dist/jquery.js");
 /* harmony import */ var jquery__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(jquery__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var underscore__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! underscore */ "./node_modules/underscore/underscore.js");
-/* harmony import */ var underscore__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(underscore__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var underscore__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! underscore */ "./node_modules/underscore/modules/index-all.js");
 /* harmony import */ var backbone__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! backbone */ "./node_modules/backbone/backbone.js");
 /* harmony import */ var backbone__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(backbone__WEBPACK_IMPORTED_MODULE_2__);
 
@@ -81,10 +80,10 @@ __webpack_require__.r(__webpack_exports__);
       html = '';
     self.$grid = self.$el.find('.grid-system');
     if (self.$grid.length && gridConfig) {
-      underscore__WEBPACK_IMPORTED_MODULE_1___default().each(gridConfig, function (row, index) {
+      underscore__WEBPACK_IMPORTED_MODULE_1__["default"].each(gridConfig, function (row, index) {
         html += '<div class="grid-row" title="row: ' + (index + 1) + '">';
         if (row.col && row.col.length > 0) {
-          underscore__WEBPACK_IMPORTED_MODULE_1___default().each(row.col, function (col) {
+          underscore__WEBPACK_IMPORTED_MODULE_1__["default"].each(row.col, function (col) {
             switch (col.style) {
               case 'padding':
                 html += '<div class="grid-col grid-padding grid-col-' + col.value + '"></div>';
@@ -125,4 +124,4 @@ __webpack_require__.r(__webpack_exports__);
 /***/ })
 
 }]);
-//# sourceMappingURL=page.styles.bundle.js.map
+//# sourceMappingURL=page.styles.product.bundle.js.map
