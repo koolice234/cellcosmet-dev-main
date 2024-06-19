@@ -1,14 +1,50 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
-    "sections": {
-        "main": {
-            "type": "product-main"
+  "sections": {
+    "main": {
+      "type": "product-main",
+      "blocks": {
+        "title_E4YfJa": {
+          "type": "title",
+          "settings": {
+          }
         },
-        "size-chart": {
-            "type": "product-size-chart"
+        "price_JWUzXG": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "description_NzinEy": {
+          "type": "description",
+          "settings": {
+          }
         }
+      },
+      "block_order": [
+        "title_E4YfJa",
+        "price_JWUzXG",
+        "description_NzinEy"
+      ],
+      "settings": {
+      }
     },
-    "order": [
-        "main",
-        "size-chart"
-    ]
+    "size-chart": {
+      "type": "product-size-chart",
+      "settings": {
+        "need_help_text": "<p>Email for size help<\/p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "size-chart"
+  ]
 }
