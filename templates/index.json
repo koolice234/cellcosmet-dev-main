@@ -1,43 +1,95 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
-    "wrapper": "div.homepage",
-    "sections": {
-      "homepage-module-a": {
-        "type": "homepage-module-a",
-        "settings": {
+  "wrapper": "div.homepage",
+  "sections": {
+    "homepage-module-a": {
+      "type": "homepage-module-a",
+      "blocks": {
+        "slide_nP3hJJ": {
+          "type": "slide",
+          "settings": {
+            "image_a": "shopify:\/\/shop_images\/Screenshot2022-01-23at20-39-26JESSICARICH_jessicarich_Instagramphotosandvideos.png",
+            "image_mobile": "shopify:\/\/shop_images\/Screenshot2022-01-23at20-39-26JESSICARICH_jessicarich_Instagramphotosandvideos.png",
+            "video_url": "https:\/\/www.youtube.com\/watch?v=Pt7DYT2BxyE&ab_channel=ChillVibes",
+            "preheadline": "wee",
+            "preheadline_foreground": "#A80A14",
+            "preheadline_background": "#fff",
+            "preheadline_background_transparent": false,
+            "preheadline_border": "#A80A14",
+            "preheadline_border_hide": false,
+            "headline": "test",
+            "text_color_desktop": "#fff",
+            "text_color_mobile": "#fff",
+            "subheadline": "",
+            "cta": "",
+            "link": "",
+            "button_foreground": "#000",
+            "button_background": "#fff",
+            "text_align": "text-center",
+            "mobile_vertical_alignment": "mobile-bottom",
+            "vertical_text_alignment": "bottom",
+            "horizontal_text_alignment": "left",
+            "date_from": "",
+            "date_to": ""
+          }
         }
       },
-      "homepage-module-b": {
-        "type": "homepage-module-b",
-        "settings": {
-        }
-      },
-      "homepage-module-c": {
-        "type": "homepage-module-c",
-        "settings": {
-        }
-      },
-      "homepage-module-d": {
-        "type": "homepage-module-d",
-        "settings": {
-        }
-      },
-      "homepage-module-e": {
-        "type": "homepage-module-e",
-        "settings": {
-        }
-      },
-      "homepage-module-f": {
-        "type": "homepage-module-e",
-        "settings": {
-        }
+      "block_order": [
+        "slide_nP3hJJ"
+      ],
+      "settings": {
       }
     },
-    "order": [
-      "homepage-module-a",
-      "homepage-module-b",
-      "homepage-module-c",
-      "homepage-module-d",
-      "homepage-module-e",
-      "homepage-module-f"
-    ]
-  }
+    "homepage-module-b": {
+      "type": "homepage-module-b",
+      "settings": {
+        "headline": "SHOP BESTSELLERS"
+      }
+    },
+    "homepage-module-c": {
+      "type": "homepage-module-c",
+      "settings": {
+        "flip": "",
+        "headline": "",
+        "subheadline": "",
+        "copy": "",
+        "cta": "",
+        "link": ""
+      }
+    },
+    "homepage-module-d": {
+      "type": "homepage-module-d",
+      "settings": {
+        "headline": "Featured in"
+      }
+    },
+    "homepage-module-e": {
+      "type": "homepage-module-e",
+      "settings": {
+        "headline": "Shop by category"
+      }
+    },
+    "homepage-module-f": {
+      "type": "homepage-module-e",
+      "settings": {
+        "headline": "Shop by category"
+      }
+    }
+  },
+  "order": [
+    "homepage-module-a",
+    "homepage-module-b",
+    "homepage-module-c",
+    "homepage-module-d",
+    "homepage-module-e",
+    "homepage-module-f"
+  ]
+}
