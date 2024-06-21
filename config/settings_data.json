@@ -1,41 +1,46 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
-  "current": "Default",
-  "presets": {
-    "Default": {
-      "sections": {
-        "collection-list": {
-          "type": "collection-list",
-          "blocks": {
-            "collection-list-0": {
-              "type": "collection"
-            },
-            "collection-list-1": {
-              "type": "collection"
-            },
-            "collection-list-2": {
-              "type": "collection"
-            }
-          },
-          "block_order": [
-            "collection-list-0",
-            "collection-list-1",
-            "collection-list-2"
-          ]
-        },
-        "featured-collection": {
-          "type": "featured-collection",
-          "settings": {
-            "collection": "frontpage"
-          }
-        },
-        "featured-product": {
-          "type": "featured-product"
+  "current": {
+    "hp_header_color": "header-dark_text",
+    "logo": "shopify:\/\/shop_images\/seel-ra-product-image.png",
+    "logo_max_width": "90",
+    "footer_mega_linklist": "footer",
+    "footer_slim_linklist": "main-menu",
+    "sections": {
+      "minicart-messaging": {
+        "type": "minicart-messaging",
+        "settings": {
         }
       },
+      "navigation": {
+        "type": "navigation",
+        "settings": {
+          "nav_divider": "2"
+        }
+      },
+      "footer-banner": {
+        "type": "footer-banner",
+        "settings": {
+          "heading": "THE SCIENCE OF COSMETICS"
+        }
+      }
+    },
+    "content_for_index": [
+
+    ]
+  },
+  "presets": {
+    "Default": {
       "content_for_index": [
-        "collection-list",
-        "featured-collection",
-        "featured-product"
+
       ]
     }
   }
