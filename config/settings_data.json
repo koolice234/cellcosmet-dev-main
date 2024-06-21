@@ -11,7 +11,7 @@
   "current": {
     "hp_header_color": "header-dark_text",
     "logo": "shopify:\/\/shop_images\/seel-ra-product-image.png",
-    "logo_max_width": "90",
+    "logo_max_width": "",
     "footer_mega_linklist": "footer",
     "footer_slim_linklist": "main-menu",
     "sections": {
