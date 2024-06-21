@@ -17,6 +17,7 @@
           "type": "slide",
           "settings": {
             "image_a": "shopify:\/\/shop_images\/glass-box-gold.png",
+            "image_mobile": "shopify:\/\/shop_images\/image_fedcb294-5ff1-472b-a017-f75b1b671188.jpg",
             "video_url": "https:\/\/www.youtube.com\/watch?v=w8XNObIV7bI",
             "preheadline": "test",
             "preheadline_foreground": "#a80a14",
