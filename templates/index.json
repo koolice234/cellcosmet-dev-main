@@ -78,14 +78,59 @@
     },
     "homepage-module-b": {
       "type": "homepage-module-b",
-      "disabled": true,
+      "blocks": {
+        "product_bc73rw": {
+          "type": "product",
+          "settings": {
+            "product": "dog-car-seat-and-travel-carrier-bed"
+          }
+        }
+      },
+      "block_order": [
+        "product_bc73rw"
+      ],
       "settings": {
         "headline": "SHOP BESTSELLERS"
       }
     },
     "homepage-module-c": {
       "type": "homepage-module-c",
-      "disabled": true,
+      "blocks": {
+        "icon_wNXH37": {
+          "type": "icon",
+          "settings": {
+            "image_a": "shopify:\/\/shop_images\/Screenshot2022-01-23at20-39-26JESSICARICH_jessicarich_Instagramphotosandvideos.png",
+            "headline": "test"
+          }
+        },
+        "icon_ykMTGr": {
+          "type": "icon",
+          "settings": {
+            "image_a": "shopify:\/\/shop_images\/image_fedcb294-5ff1-472b-a017-f75b1b671188.jpg",
+            "headline": "test"
+          }
+        },
+        "icon_8G4YFe": {
+          "type": "icon",
+          "settings": {
+            "image_a": "shopify:\/\/shop_images\/ScreenShot2022-07-30at6.57.53AM.png",
+            "headline": "test"
+          }
+        },
+        "icon_GhBztV": {
+          "type": "icon",
+          "settings": {
+            "image_a": "shopify:\/\/shop_images\/image_28fb3122-0af6-434c-b603-5a702f5e3377.jpg",
+            "headline": "test"
+          }
+        }
+      },
+      "block_order": [
+        "icon_wNXH37",
+        "icon_ykMTGr",
+        "icon_8G4YFe",
+        "icon_GhBztV"
+      ],
       "settings": {
         "flip": "",
         "headline": "",
@@ -97,7 +142,26 @@
     },
     "homepage-module-d": {
       "type": "homepage-module-d",
-      "disabled": true,
+      "blocks": {
+        "logo_QNHpJn": {
+          "type": "logo",
+          "settings": {
+            "image_a": "shopify:\/\/shop_images\/Screen_Shot_2019-06-18_at_7.22.04_PM.png",
+            "link": "shopify:\/\/pages\/contact"
+          }
+        },
+        "logo_3BFnLW": {
+          "type": "logo",
+          "settings": {
+            "image_a": "shopify:\/\/shop_images\/image_3f547a4a-07d0-43f9-aab2-628f1c921b4e.jpg",
+            "link": "shopify:\/\/pages\/contact"
+          }
+        }
+      },
+      "block_order": [
+        "logo_QNHpJn",
+        "logo_3BFnLW"
+      ],
       "settings": {
         "headline": "Featured in"
       }
